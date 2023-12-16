@@ -1,0 +1,111 @@
+.navbar{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex; 
+    position: sticky; 
+    z-index: 100;
+}
+.navbar .start{
+    width: 20%;
+}
+.navbar .middle{
+    width: 60%;
+    height: 50px;
+    position: relative;
+}
+.navbar .middle ul{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-transform: capitalize;
+
+}
+.navbar .middle ul li{
+    position: relative;
+}
+.navbar .middle ul li a{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;  
+    text-decoration: none;
+    transition: 0.2s all linear;
+    /* padding-bottom: 10px; */
+}
+.navbar .middle ul li a:hover{
+    color: #29A56C;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.navbar .middle ul li .subabout{
+    position: absolute;
+    margin-top: 20px;
+    width: 200px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 10px 0px;
+    opacity: 0;
+    visibility: hidden;  
+    transition: 0.4s all ease-in-out;
+    background-color: #fff;
+}
+.navbar .middle ul li .subabout ul{
+    display: inline-block;
+}
+.navbar .middle ul li:hover .subabout{
+    opacity: 0.9;
+    visibility: visible;
+}
+.navbar .middle ul li .subabout ul li{
+    padding: 5px 0px;
+    left: -15px;
+}
+.navbar .end{
+    width: 20%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+/* .navbar .middle ul li .megamenu ul{
+    display: inline-block;
+    position: absolute;
+} */
+.navbar .middle ul li .subabout ul .menuHead{
+    color: #3BB77E;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+
+}
+.navbar .end img{
+    width: 40px;
+    /* vertical-align: ; */
+}
+.navbar .end h1{
+    font-size: 30px;
+    color: #29A56C;
+}
+.navbar .end span{
+    font-size: 14px;
+}
+.navbar .end .endData{
+    padding-left: 10px;
+    line-height: 2px;
+    /* overflow: auto; */
+}
+.imgdata .button{
+    border: none;
+    background-color: #29A56C;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s all linear;
+}
+.imgdata:hover .button{
+    background-color: #FD6E6E;
+}
+/* */

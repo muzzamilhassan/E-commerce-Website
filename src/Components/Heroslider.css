@@ -1,0 +1,80 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+.SliderMain{
+    padding: 20px 0;
+    position: relative;
+}
+.SliderMain img{
+    width: 100%;
+    border-radius: 50px;
+}
+.slick-arrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: darkgray !important;
+    z-index: 1000;
+}
+
+.slick-arrow:hover{
+    background-color: #29A56C !important;
+}
+.slick-arrow.slick-next{
+    right: 2%;
+}
+.slick-arrow.slick-prev{
+    left: 2%;
+}
+.slick-arrow.slick-next::before{
+    content:"\f054";
+    font-family: FontAwesome;
+}
+.slick-arrow.slick-prev::before{
+    content:"\f053";
+    font-family: FontAwesome;
+}
+.SliderMain .SlideMain-sec{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 0px;
+    padding: 5% 8%;
+    line-height: 40px;
+}
+.SliderMain .SlideMain-sec h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.SliderMain .SlideMain-sec p{
+    font-size: 30px;
+}
+.SliderMain .SlideMain-sec form{
+    width: 400px;
+    /* border: 1px  solid red; */
+    position: relative;
+}
+.SliderMain .SlideMain-sec input{  
+    width: 100%;
+    border: none;  
+    border-radius: 30px;
+    color: black;
+    position: relative;
+    z-index: 1;
+    outline: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.SliderMain .SlideMain-sec button{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    background-color: #29A56C;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+
+
