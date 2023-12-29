@@ -4,12 +4,11 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { LiaHotjar } from "react-icons/lia";
 import { IoIosArrowDown } from "react-icons/io";
-import { ClickAwayListener } from '@mui/base/ClickAwayListener';
-import Megamenu from './megamenu';
+// import { ClickAwayListener } from '@mui/base/ClickAwayListener';
+// import Megamenu from './megamenu';
 const Navbar = () => {
   const [open,setOpen]=useState(false)
   return (
-    <div>
         <div className="navbar">
                     <div className="start">
                     <NavbarStart/>
@@ -25,12 +24,12 @@ const Navbar = () => {
                       </li>
                       
                       <li>                        
-                          <Link>Home<IoIosArrowDown/></Link>  
+                          <Link to='/'>Home<IoIosArrowDown/></Link>  
                           
                            <div className='subabout'>
                             <ul>
                               <li><Link to="/About" onClick={()=>setOpen(!open)}>About Us</Link></li>
-                              <li><Link to="">Contact Us</Link></li>
+                              <li><Link to="/contact">Contact Us</Link></li>
                               <li><Link to="">My Account</Link></li>
                               <li><Link to="">Login</Link></li>
                               <li><Link to="">Register</Link></li>
@@ -71,7 +70,7 @@ const Navbar = () => {
                           <div className='subabout'>
                             <ul>
                               <li><Link to="/About" onClick={()=>setOpen(!open)}>About Us</Link></li>
-                              <li><Link to="">Contact Us</Link></li>
+                              <li><Link to="/Contact">Contact Us</Link></li>
                               <li><Link to="">My Account</Link></li>
                               <li><Link to="">Login</Link></li>
                               <li><Link to="">Register</Link></li>
@@ -188,8 +187,8 @@ const Navbar = () => {
                     <span>24/7 Support Center</span>
                     </div>
                     </div>
+                    
         </div>
-    </div>
   )
 }
 

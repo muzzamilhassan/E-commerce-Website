@@ -2,7 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 .SliderMain{
-    padding: 20px 0;
+    padding: 20px 0px;
     position: relative;
 }
 .SliderMain img{
@@ -62,7 +62,7 @@
     position: relative;
     z-index: 1;
     outline: none;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 30px;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -75,6 +75,29 @@
     font-weight: bold;
     border-radius: 30px;
     border: none;
+}
+.SliderMain .slick-dots {
+    bottom: 40px;
+}
+.SliderMain .slick-dots li.slick-active button:before{
+    color: #29A56C;
+}
+.SliderMain .slick-dots li button::before{
+    font-size: 15px;
+}
+.SliderMain .slick-active{
+    margin: 0px;
+}
+.SliderMain .slick-dots li{
+    margin: 0px;
+}
+.SliderMain .SlideMain-sec svg{
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+    font-size: 25px;
+    padding-left: 5px;
+    color: #29A56C;
 }
 
 

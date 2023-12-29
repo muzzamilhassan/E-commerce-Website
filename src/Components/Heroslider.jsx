@@ -1,9 +1,10 @@
 import React from 'react'
 import Slider from "react-slick";
 import './Heroslider.css'
+import { IoIosSend } from "react-icons/io";
 const Heroslider = () => {
     var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -19,8 +20,11 @@ const Heroslider = () => {
             <h1>Don’t miss amazing  <br />grocery deals</h1>
             <p>Sign up for the daily newsletter</p>
             <form action="">
+           
+                <IoIosSend/>
                 <input type="text" name="email" id="email" placeholder='Your email Address'/>
                 <button className='button'>Subscribe</button>
+                
             </form>
         </div>
       </div>
@@ -30,6 +34,7 @@ const Heroslider = () => {
             <h1>Fresh Vegetables <br />Big discount</h1>
         <p>Save up to 50% off on your first order</p>
             <form action="">
+            <IoIosSend/>
                 <input type="text" name="email" id="email" placeholder='Your email Address' />
                 <button>Subscribe</button>
             </form>

@@ -1,0 +1,51 @@
+.Banner-sec{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 10px;
+    margin: 10px;   
+}
+.Banner-sec img{
+    width: 100%;
+    
+    
+}
+.Banner-sec .sub-banner{
+    position: relative;
+}
+.Banner-sec .sub-banner .absolute{
+    position: absolute;
+    top: 55px;
+    left: 30px;
+}
+.Banner-sec .sub-banner .absolute h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: .2s all linear;
+
+}
+.Banner-sec .sub-banner:hover .absolute h5{
+    transform: translateY(-7px);
+}
+.Banner-sec .sub-banner .absolute button{
+    background-color: #29A56C;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 120px;
+    transition: .2s all linear;
+    color: white;
+    font-weight: 600;
+}
+.Banner-sec .sub-banner .absolute button:hover{
+    background-color: #FDC040;
+}
+.Banner-sec .sub-banner .absolute svg{
+    padding-left: 8px;
+    font-size: 25px;
+    transition: .2s all linear;
+}
+.Banner-sec .sub-banner .absolute button:hover svg{
+    margin-left: 5px;
+}

@@ -1,0 +1,74 @@
+.catSlidersection .headingSec{
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+}
+.catSlidersection .headingSec ul{
+    display: flex;
+}
+.catSlidersection .headingSec ul li{
+    list-style-type: none;
+}
+.catSlidersection .headingSec ul button {
+    padding: 1.3em 1em;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+  }
+.catSlidersection .headingSec ul button:hover {
+    color: #29A56C;
+    transform: translateY(-7px);
+} 
+.CateMain .items{
+   text-align: center;
+   margin: 20px 0;
+}
+.CateMain .slick-slide{
+    padding-right: 20px;
+}
+.CateMain .items{
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color: #FFF3EB;
+    outline: none;
+    transition: 0.3s all linear;
+}
+.CateMain .items:hover{
+    box-shadow: #239761 0px 1px 3px 0px, #239761 0px 0px 0px 1px;
+}
+.CateMain .items h6 a{
+    transition: .2s linear  all;
+}
+.CateMain .items:hover h6 a{
+    color: #239761;
+}
+.CateMain .items img{
+    scale: 0.8;
+    transition:.2s all linear;
+}
+.CateMain .items img:hover{
+    scale: 0.85;
+}
+.CateMain .items a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.CateMain .slick-arrow{
+    top: -60px;
+    zoom: 80%;
+}
+.CateMain .slick-arrow.slick-prev{
+    left: inherit;
+    right: 90px;
+}
+
+
+

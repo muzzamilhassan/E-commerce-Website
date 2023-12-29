@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
 
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 const Header = () => {
     const list = [
         
@@ -39,7 +40,9 @@ const Header = () => {
   return (
     <div className='header'>
         <div className='header-start'>
+            <Link to="/">
             <img src="\src\Images\logo.svg" alt="logo"  width='70%'/>
+            </Link>
         </div>
         <div className='header-middle'>
             <Categaries data={list} placeholder={'All Categrious'}/> 

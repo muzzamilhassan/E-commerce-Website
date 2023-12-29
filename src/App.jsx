@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Header from './Components/Header'
 import Axios from './Components/Axios'
 import Navbar from './Components/Navbar'
@@ -19,7 +20,6 @@ const App = () => {
     <BrowserRouter>
       <Header/>
       <Navbar/>
-      <Heroslider/>
       <Routes>
         <Route exact={true} path='/' element={<Home/>}/>
         <Route exact={true} path='/About' element={<About/>}/>
