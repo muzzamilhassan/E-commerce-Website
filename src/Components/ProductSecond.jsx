@@ -1,6 +1,7 @@
 import React from 'react'
+import Slider from "react-slick";
+import './ProductSecond.css'
 import Obj from '../APIs/Product'
-import './Product.css'
 import { LuHeartCrack } from "react-icons/lu";
 import { TbBrandStackshare } from "react-icons/tb";
 import { FaRegEye } from "react-icons/fa6";
@@ -8,29 +9,37 @@ import { MdOutlineAddShoppingCart } from "react-icons/md";
 import Tooltip from '@mui/material/Tooltip';
 import Rating from '@mui/material/Rating';
 import IconButton from '@mui/material/IconButton';
-const Product = () => {
-    
+const ProductSecond = () => {
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    fade:false,
+    arrows:true,
+    autoplay:20000,
+  };
   return (
-    <div>
-      <div className="headingSec productheadingsec">
+    <div className="catSlidersection">
+      <div className="conntainer-fluid">
+        <div className="headingSec">
         <h1>
-        Popular Products
+        Featured Categories
         </h1>
         <ul>
-          <li><button style={{color:'#29A56C'}}>All</button></li>
           <li> <button>Cack & Milk </button></li>
           <li> <button>Cofees & Teas</button></li>
-          <li> <button>Pet Foods </button></li>
-          <li><button>Meats</button></li>
+          <li> <button style={{color:'#29A56C'}}>Pet Foods </button></li>
           <li> <button>Vegetables</button></li>
-          <li><button>Fruits</button></li>
         </ul>
         </div>
-    <div className='mainn'>
+      <div className="bannerImageRelative">
+      <Slider {...settings} className='ProductSecond'>
         {
-            Obj.map((e)=>{
-               return(
-                <div className='pro-sec'> 
+          Obj.map((e)=>{
+            return(
+              <div className='proSecond-sec'> 
                 <h6 className='saleBanner'>{e.sale}</h6>
                 <div className='sub-banner'>
                 <div className="imgs-sec">
@@ -71,12 +80,18 @@ const Product = () => {
                 </div>
 
                 </div>
-               )
-            })
+            )
+          })
         }
+        
+      </Slider>
+      <div className='bannerImageAbsolute'>
+        <img src="\src\Images\img-1.png" alt="" />
+      </div>
+      </div>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Product
+export default ProductSecond

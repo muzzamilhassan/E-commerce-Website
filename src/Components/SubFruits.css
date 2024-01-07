@@ -1,0 +1,27 @@
+
+.fruits .sub-fruits{
+    display: flex;
+    padding: 10px;
+}
+.fruits .sub-fruits img{
+    width: 30%;
+    height: 100px;
+}
+.fruits .sub-fruits h1{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.fruits .sub-fruits .padding{
+    padding-top: 10px;
+}
+.fruits .sub-fruits .newprice{
+    color: #3BB782;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.fruits .sub-fruits .oldprice{
+    color: darkgray;
+    font-weight: 600;
+}

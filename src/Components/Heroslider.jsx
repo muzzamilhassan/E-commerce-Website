@@ -11,6 +11,7 @@ const Heroslider = () => {
         slidesToScroll: 1,
         fade:true,
         arrows:true,
+        autoplay:2000
       };
   return (
     <Slider {...settings} className='SliderMain'>
