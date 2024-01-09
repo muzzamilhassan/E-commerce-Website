@@ -13,6 +13,7 @@ const CateGarie = () => {
     arrows:true,
     autoplay:2000,
   };
+
   return (
     <div className="catSlidersection">
       <div className="conntainer-fluid">

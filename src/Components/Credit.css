@@ -1,0 +1,39 @@
+.Credit{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(050px , 1fr));
+    overflow: hidden;
+    border-top: 1px solid #29A56C;
+    padding: 10px;
+    align-items: center;
+}
+.Credit h1{
+    font-size: 18px;
+}
+.Credit h1:nth-child(2){
+    text-align:center;
+}
+.Credit h1:nth-child(2) svg{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.Credit ul {
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+
+}
+.Credit ul li{
+    list-style-type: none;
+    padding: 2px;
+    transition: .2s all ease-in-out;
+}
+.Credit ul li:hover{
+    transform: translateY(-7px);
+}
+.Credit ul li a{
+    background-color: #29A56C;
+    color: white;
+    padding: 4px 8px 6px 8px;
+    border-radius: 50%;
+
+}

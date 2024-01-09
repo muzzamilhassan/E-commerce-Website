@@ -6,7 +6,8 @@ import Product from '../../Components/Product'
 import ProductSecond from '../../Components/ProductSecond'
 import FruitCate from '../../Components/FruitCate'
 import Timer from '../../Components/Timer'
-
+import LastHero from '../../Components/LastHero'
+import Footer from '../../Components/Footer'
 const Home = () => {
   return (
     <div>
@@ -17,6 +18,8 @@ const Home = () => {
       <ProductSecond/>
       {/* <Timer/> */}
       <FruitCate/>
+      <LastHero/>
+      <Footer/>
     </div>
   )
 }

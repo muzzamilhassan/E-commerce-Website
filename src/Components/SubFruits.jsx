@@ -4,7 +4,6 @@ import Rating from '@mui/material/Rating';
 const SubFruits = (props) => {
   return (
     <div className='fruits'>
-        {/* <h1 className='heading'>{props.title}</h1> */}
         <div className="sub-fruits">
         <img src={props.img} alt="" />
         <div>
