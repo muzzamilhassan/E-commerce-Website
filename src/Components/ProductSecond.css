@@ -141,7 +141,7 @@
     color: white;
 }
  .slick-arrow.slick-prev{
-    left: 550px;
+    /* left: 550px; */
     right: 90px;
 }
 .bannerImageRelative{

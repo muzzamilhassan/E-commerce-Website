@@ -3,7 +3,6 @@ import '../Components/Header.css'
 import Categaries from './Categaries'
 import { CiSearch } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
-
 import axios from 'axios'
 import { Link } from 'react-router-dom';
 const Header = () => {
