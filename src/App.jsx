@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Axios from './Components/Axios'
@@ -14,8 +14,20 @@ import Blog from './Pages/Blog/Index'
 import Pages from './Pages/Page/Index'
 import Contact from './Pages/Contact/Index'
 import Heroslider from './Components/Heroslider'
+import Model from './Components/Model'
 
 const App = () => {
+  const[loader,setLoader]=useState(true)
+  useEffect(()=>{
+    // setLoader(false)
+    setTimeout(() => {
+      setLoader(false)
+    }, 1000);
+  })
+
+  if(loader){
+    return <Model/>
+  }
   return (
     <BrowserRouter>
       <Header/>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../Components/Header.css'
 import Categaries from './Categaries'
 import { CiSearch } from "react-icons/ci";
