@@ -43,7 +43,7 @@ const Header = () => {
     <div className='header'>
         <div className='header-start'>
             <Link to="/">
-            <img src="\src\Images\logo.svg" alt="logo"  width='70%'/>
+            <img src="/src/Images/logo.svg" alt="logo"  width='70%'/>
             </Link>
         </div>
         <div className='header-middle'>
@@ -60,19 +60,19 @@ const Header = () => {
         <div className='header-end'>
             
             <span>
-                <img src="\src\Images\icon-compare.svg" alt="cart-icon" />
+                <img src="/src/Images/icon-compare.svg" alt="cart-icon" />
                 Compare
             </span>
             <span>
-                <img src="\src\Images\icon-heart.svg" alt="cart-icon" />
+                <img src="/src/Images/icon-heart.svg" alt="cart-icon" />
                 Wishlist
             </span>
             <span>
-                <img src="\src\Images\icon-cart.svg" alt="cart-icon" />
+                <img src="/src/Images/icon-cart.svg" alt="cart-icon" />
                 Cart
             </span>
             <span>
-                <img src="\src\Images\icon-user.svg" alt="cart-icon" />
+                <img src="/src/Images/icon-user.svg" alt="cart-icon" />
                 Compare
             </span>
         </div>
