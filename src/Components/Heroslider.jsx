@@ -16,7 +16,7 @@ const Heroslider = () => {
   return (
     <Slider {...settings} className='SliderMain'>
       <div>
-        <img src="\src\Images\slider-1.png" alt="logo" />
+        <img src="/src/Images/slider-1.png" alt="logo" />
         <div className='SlideMain-sec'>
             <h1>Don’t miss amazing  <br />grocery deals</h1>
             <p>Sign up for the daily newsletter</p>
@@ -30,7 +30,7 @@ const Heroslider = () => {
         </div>
       </div>
       <div>
-        <img src="\src\Images\slider-2.png" alt="logo" />
+        <img src="/src/Images/slider-2.png" alt="logo" />
         <div className='SlideMain-sec'>
             <h1>Fresh Vegetables <br />Big discount</h1>
         <p>Save up to 50% off on your first order</p>

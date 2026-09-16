@@ -12,7 +12,7 @@ const Model = () => {
   return (
     <div className='model'>
       {/* hello */}
-    <img src="\src\Images\loading.gif" alt="loader"/>
+    <img src="/src/Images/loading.gif" alt="loader"/>
     </div>
   )
 }

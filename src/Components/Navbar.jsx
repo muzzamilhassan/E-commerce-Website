@@ -121,7 +121,7 @@ const Navbar = () => {
                             <ul style={{marginLeft:'50px'}}>
                               <li>
                                 <div className='imgdata' style={{position:'relative'}}>
-                                  <img src="\src\Images\banner-menu.png" alt="banner-menu" style={{position:'absolute',top:'-200px'}}/>
+                                  <img src="/src/Images/banner-menu.png" alt="banner-menu" style={{position:'absolute',top:'-200px'}}/>
                                   <div style={{position:'absolute'}}>
                                     <div style={{backgroundColor:'#FFD55A',padding:'20px 30px',borderRadius:'50%',position:'absolute',bottom:'50px',left:'350px'}}>
                                       <h3 style={{}}>25% <br /> <span style={{fontSize:'25px'}}>off</span></h3>
@@ -181,7 +181,7 @@ const Navbar = () => {
                     </ul>
                     </div>
                     <div className="end">
-                      <img src="\src\Images\icon-headphone.svg" alt="" />
+                      <img src="/src/Images/icon-headphone.svg" alt="" />
                     <div className='endData'>
                     <h1>1900 - 888</h1>
                     <span>24/7 Support Center</span>

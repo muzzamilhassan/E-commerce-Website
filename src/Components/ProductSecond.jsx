@@ -86,7 +86,7 @@ const ProductSecond = () => {
         
       </Slider>
       <div className='bannerImageAbsolute'>
-        <img src="\src\Images\img-1.png" alt="" />
+        <img src="/src/Images/img-1.png" alt="" />
       </div>
       </div>
       </div>
